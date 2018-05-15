@@ -8,7 +8,6 @@
 
 #import "NSObject+Runtime.h"
 #import <objc/runtime.h>
-#import <sys/kern_event.h>
 @implementation NSObject (Runtime)
 
 + (BOOL)swizzleMethod:(SEL)origSel withMethod:(SEL)aftSel {
